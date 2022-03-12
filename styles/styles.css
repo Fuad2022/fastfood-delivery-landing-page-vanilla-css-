@@ -149,7 +149,7 @@ body {
 .hero-container .hero-content .hero-buttons {
   width: 60%;
   height: 70px;
-  margin-top: 30px;
+  margin: 30px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,4 +187,22 @@ body {
   font-weight: 600;
   color: #2f2f2f;
   margin-left: 5px;
+}
+.hero-container .hero-content .rating-review-text span {
+  color: #2f2f2f;
+  font-weight: 600;
+  font-size: 18px;
+}
+.hero-container .hero-content .hero-rating-section .rating-star i {
+  height: 26px;
+  width: 26px;
+  color: #febb41;
+}
+
+.hero-container .hero-content .hero-rating-section .rating-review-text {
+  color: #909090;
+  font-size: 18px;
+}
+.hero-container .hero-image img {
+  width: 95%;
 }
