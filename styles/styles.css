@@ -1,0 +1,142 @@
+/* Google Font Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Global styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style  */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #faeddb;
+  width: calc(100% - 150px);
+  height: 90vh;
+  margin: 0 auto;
+}
+
+/* Nav Bar Style Start  */
+.nav-bar {
+  margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .logo {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar .logo h2 {
+  margin-left: 5px;
+  font-weight: 600;
+}
+.nav-bar .nav-menu {
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-bar .nav-menu .menu-items {
+  display: flex;
+}
+.nav-bar .nav-menu .menu-items a {
+  padding: 10px 20px;
+  margin: 0px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+}
+.nav-bar .nav-menu .search {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.212);
+  border-radius: 30px;
+}
+.nav-bar .nav-menu .search p {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-bar .nav-menu .search p > i {
+  color: rgb(141, 141, 141);
+  position: absolute;
+  left: 35px;
+}
+.nav-bar .nav-menu .search input {
+  width: 60%;
+  height: 100%;
+  border: 0px;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  background-color: transparent;
+  outline: none;
+}
+.nav-bar .nav-menu .search .shopping-cart {
+  margin-left: 50px;
+  display: flex;
+  width: 50px;
+}
+.nav-bar .nav-menu .search .shopping-cart .cart-icon {
+  width: 50%;
+  border-left: 2px solid rgb(128, 128, 128);
+}
+.nav-bar .nav-menu .search .shopping-cart .cart-icon i {
+  color: rgb(128, 128, 128);
+  margin-left: 10px;
+}
+.nav-bar .nav-menu .search .shopping-cart span {
+  border-radius: 50%;
+  width: 25px;
+  text-align: center;
+  color: white;
+  background: rgb(224, 45, 45);
+  box-shadow: 1px 2px 15px lightcoral;
+  position: relative;
+  right: -6px;
+  top: -20px;
+}
+/* Nav Bar style Ends */
+
+/* Hero Section */
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-container .hero-content,
+.hero-container .hero-image {
+  width: 50%;
+}
+.hero-container .hero-content .hero-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-container .hero-content .hero-title h1 {
+  color: #ff7e00;
+  width: 45%;
+  font-size: 8em;
+  font-weight: 700;
+}
+.hero-container .hero-content .hero-title h3 {
+  font-size: 4em;
+  width: 50%;
+  font-weight: 700;
+  line-height: 49.3px;
+  color: #2f2f2f;
+}
